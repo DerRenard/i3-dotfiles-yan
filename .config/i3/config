@@ -27,7 +27,8 @@ exec dmenu
 exec nitrogen --restore
 exec compton
 
-#exec --no-startup-id spectacle 
+
+exec_always "setxkbmap -model pc104 -layout us,ru -variant ,, -option grp:alt_space_toggle"
 
 #exec "setxkbmap -layout us,ru"
 #exec "setxkbmap -option 'grp:alt_space_toggle'"
